@@ -11,7 +11,7 @@
 - Maven
 
 ## Как запустить проект
-1. Склонируйте репозиторий: git clone <URL_репозитория>
+1. Склонируйте репозиторий: git clone https://github.com/Ksenia001/Library/tree/master
 2. Перейдите в папку проекта:
    cd library
 3. Запустите проект: mvn spring-boot:run
