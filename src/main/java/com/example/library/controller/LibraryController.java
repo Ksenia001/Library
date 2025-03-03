@@ -26,7 +26,7 @@ public class LibraryController {
         if (author != null && !author.isEmpty()) {
             result = BOOKS.stream()
                     .filter(book -> book.getAuthor().equalsIgnoreCase(author))
-                    .collect(Stream.toList());
+                    .toList();
         }
         // Возвращаем список книг с HTTP-статусом 200 (OK)
         return ResponseEntity.ok(result);
