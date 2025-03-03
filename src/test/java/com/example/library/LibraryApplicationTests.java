@@ -1,13 +1,13 @@
 package com.example.library;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@com.example.library.SpringBootTest
 class LibraryApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void contextLoads() {	//
 	}
 
 }

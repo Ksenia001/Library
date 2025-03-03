@@ -9,7 +9,6 @@ public class LibraryApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LibraryApplication.class, args);
 	}
-
 }
 //http://localhost:8080/library/books
 //http://localhost:8080/library/book/1
